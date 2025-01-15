@@ -1,0 +1,30 @@
+
+[0;7m------------------------------------------------------------------------------------------------------------------------------------------------
+                                        Starting Execution: '1 out of 1' test cases in the current suite                                        
+                                                       Test Method: 'Facebook.Tests.login'                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------
+[0m
+[ReportManager] Type "Username" @15-01-2025 15:23:44.0942 PM
+[ReportManager] Type "Password" @15-01-2025 15:23:45.0274 PM
+[ReportManager] Click "Login" @15-01-2025 15:23:45.0544 PM
+[ReportManager] Click "By.xpath: //a[@class="oxd-main-menu-item"]//span[contains(.,'Admin')]" @15-01-2025 15:23:49.0535 PM
+[ReportManager] Get text "(34) Records Found" from "By.xpath: //span[@class="oxd-text oxd-text--span"][contains(.,'Records')]". @15-01-2025 15:23:50.0869 PM
+[ReportManager] Click " Add" @15-01-2025 15:23:51.0527 PM
+[ReportManager] Click "By.xpath: //label[contains(.,'User Role')]/../following-sibling::div" @15-01-2025 15:23:52.0177 PM
+[ReportManager] Click "By.xpath: //div[@class="oxd-select-option"]//span[contains(.,'Admin')]" @15-01-2025 15:23:52.0438 PM
+[ReportManager] Get text "Sophie KühnDoeDoe" from "By.xpath: //span[@class='oxd-userdropdown-tab']//p". @15-01-2025 15:23:52.0606 PM
+[ReportManager] Type "Type for hints..." @15-01-2025 15:23:53.0018 PM
+[ReportManager] Explicit wait until: "presence of any elements located by By.xpath: (//div[@role='option'])[1]". @15-01-2025 15:23:55.0161 PM
+[ReportManager] Click "Sophie %3aB^QzG]sd0xtDD KühnDoeDoe" @15-01-2025 15:23:55.0472 PM
+[ReportManager] Click "By.xpath: //label[contains(.,'Status')]/../following-sibling::div" @15-01-2025 15:23:55.0761 PM
+[ReportManager] Click "By.xpath: //div[@class="oxd-select-option"]//span[contains(.,'Enabled')]" @15-01-2025 15:23:56.0097 PM
+[ReportManager] Type "By.xpath: (//label[contains(.,'Username')]//following::input)[1]" @15-01-2025 15:23:56.0500 PM
+[ReportManager] Type "By.xpath: (//label[contains(.,'Password')]//following::input)[1]" @15-01-2025 15:23:56.0874 PM
+[ReportManager] Type "By.xpath: (//label[contains(.,'Confirm Password')]//following::input)[1]" @15-01-2025 15:23:57.0363 PM
+[ReportManager] Click "Save" @15-01-2025 15:23:57.0637 PM
+[ReportManager] Assert that the element located by "By.xpath: //div[@class='oxd-toast oxd-toast--success oxd-toast-container--toast']" exists. @15-01-2025 15:23:57.0708 PM
+[ReportManager] Expected "true", and actual "true" @15-01-2025 15:23:59.0713 PM
+[ReportManager] Successfully created attachment 'Screenshot - Assert_15-24-02-558_15012025' @15-01-2025 15:24:02.0563 PM
+[ReportManager] Expected "true", and actual "true" @15-01-2025 15:24:02.0564 PM
+[ReportManager] Assertion passed @15-01-2025 15:24:02.0567 PM
+[ReportManager] Get text "(35) Records Found" from "By.xpath: //span[@class="oxd-text oxd-text--span"][contains(.,'Records')]". @15-01-2025 15:24:03.0632 PM
